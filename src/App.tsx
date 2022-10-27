@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './layouts/Header'
+import Main from './layouts/Main'
 
-const App:React.FC = () => {
+const App: React.FC = () => {
     return (
-        <div>
-
-        </div>
+        <>
+            <Header/>
+            <Main/>
+        </>
     )
 }
 
