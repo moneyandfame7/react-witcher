@@ -1,15 +1,12 @@
 // Reset
-@import 'styles/reset';
-
-// Font
-@import 'styles/fonts';
+@import './reset';
 
 // Mixins
-@import 'styles/mixin';
+@import './mixin';
 
 // Variables
-@import 'styles/variables';
+@import './variables';
 
 // === Base ===
-@import 'styles/base';
+@import './base';
 
