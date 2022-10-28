@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './index.module.scss'
+import Button from '../../components/button'
 
 const Header: React.FC = () => {
     return (
@@ -8,8 +9,8 @@ const Header: React.FC = () => {
                 <img width={114} height={30} src="img/netflixLogo.jpg" alt="Netflix logo"/>
             </a>
             <div className={styles.buttons}>
-                <button className={styles.btnSubscribe}>Підписатися</button>
-                <button className={styles.btnLogin}>Увійти</button>
+                <Button value="Підписатися" variant="contained"/>
+                <Button value="Увійти" variant="outlined"/>
             </div>
         </header>
     )
